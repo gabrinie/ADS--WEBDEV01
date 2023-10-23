@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* resets */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+}
+input::placeholder{
+    color: #ffffffc7;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+}
+
+button:hover{
+    filter: brightness(150%);
+    transition: 0.4s;
+}
+/* styles */
+
+.login-container{
+    
+    background: linear-gradient(to bottom right, rgba(64,42,71,1), rgba(128,35,53,1), rgb(84, 82, 121));
+   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper{
+    width: 500px;
+    height: 550px;
+    border-radius: 40px;
+   background-color: #ffffff27;
+   filter: blur(60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login-img{
+    width: 150px;
+    height: 150px;
+    filter: opacity(50%);
+    
+}
+
+.input-login{
+    width: 350px;
+    border-bottom: 2px solid #ffffff88;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.login-options{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-button{
+    width: 380px;
+    height: 60px;
+
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgba(64,42,71,1), rgba(128,35,53,1));
+    filter: blur(60%);
+  
+    font-size: 18px;
+    color: #fff;
+
+    cursor: pointer;
+}

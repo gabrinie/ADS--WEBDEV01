@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="styles.css" rel="stylesheet" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title> My Dashboard </title>
+</head>
+<body>
+    <div class="container">
+        <!--SIDEBAR-->
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <img src="./assets/menu-icon.svg" class="sidebar-icon">
+                <div class="text-logo">
+                    <span> MG. </span>
+                </div>
+            </div>
+
+            <div class="sidebar-mid">
+                <img src="./assets/notification.svg" class="sidebar-icon">
+                <img src="./assets/mail-box.svg" class="sidebar-icon">
+                <img src="./assets/flash.svg" class="sidebar-icon">
+                
+            </div>
+            <div class="sidebar-bottom">
+                <img src="./assets/user-1.jpg" alt="profile" class="profile-picture">
+                <img src="./assets/setting.svg" class="sidebar-icon">
+            </div>
+            
+        </div>
+        <div class="divisor"></div>
+
+        <!--MENU-->
+        <div class="menu">
+            
+            <div class="menu-top">
+                <a href="#">Dashboard</a>
+                <a href="#" class="active">Project</a>
+                <a href="#">Issues and Filters</a>
+                <a href="#">Structure</a>
+                <a href="#">Settings</a>           
+            </div>
+            <div class="menu-bottom">
+                <span class="list-header">Commercial Request</span>
+                <a href="#">Marketing</a>
+                <a href="#">Businness research</a>
+                <a href="#">Finances</a>           
+            </div>
+        </div>
+
+        <!--MAIN-->
+        <div class="main">
+            <header class="main-header">
+                <div class="logo">
+                    <span>MG</span>
+                </div>
+                <div class="left-options">
+                    <img src="./assets/user-profile.svg" class="opt">
+                    <img src="./assets/headphone.svg" class="opt">
+                    <img src="./assets/disk.svg" class="opt">
+                    <div class="search-container">
+                        <input type="search" placeholder="Search...">
+                        <img src="./assets/search.svg">
+                    </div>
+                </div>
+            </header>
+            <h1 class="header-title">Projects</h1>
+            <div class="card-container">
+                <div class="card-notification">
+                    <img src="./assets/flash-white.svg" alt="" >
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-profiles">
+                            <img src="./assets/user-1.jpg" alt="" class="card-profile profile1">
+                            <img src="./assets/user-2.jpg" alt="" class="card-profile profile2">
+                            <img src="./assets/user-3.jpg" alt="" class="card-profile profile3">
+                        </div>
+                        <img src="./assets/more.svg" alt="" class="more">
+                    </div>
+                    
+                    <div class="card-info">
+                        <h4>iOS Project</h4>
+                        <span>32 Tasks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>

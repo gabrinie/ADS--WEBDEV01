@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.rect{
+    width: 100px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.box1 {
+    position: absolute;
+    background-color: yellow;
+}
+.box2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+}
+.box3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: green;
+}
+.box4 {
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+}
+.box5{
+    position: absolute;
+    background-color: blueviolet;
+    top: 0;
+    left: 400px;
+}
+.box6{
+    position: absolute;
+    background-color: rgb(111, 33, 107);
+    bottom: 0;
+    left: 400px;
+}
+.box7{
+    position: absolute;
+    background-color: rgb(175, 193, 224);
+    transform: rotate(90deg);
+    top:175px;
+    left: -50px;
+}   
+.box8{
+    position: absolute;
+    background-color: rgb(226, 101, 43);
+    transform: rotate(90deg);
+    top:175px;
+    right: -50px;
+}

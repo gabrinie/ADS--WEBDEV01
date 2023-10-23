@@ -1,0 +1,226 @@
+/*imports and resets*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+/*styling*/
+.container{
+    display: flex;
+    background-color: #F4F6FD;
+}
+
+/*SIDEBAR*/
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0 20px 0px;
+    background-color: #F4F6FD;
+    width: 5vw;
+    height: 100vh;
+}
+.text-logo{
+    transform: rotate(90deg);
+    font-size: 30px;
+    font-weight: 500;
+    color: #2C3550;
+    border-bottom: 2px solid #FF5AEE;
+    
+
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 50%;
+
+}
+.sidebar-icon{
+    width: 20px;
+}
+.sidebar-top, .sidebar-mid, .sidebar-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;  
+}
+
+.divisor{
+    width: 2px;
+    height: 90vh;
+    position: relative;
+    top: 50px;
+    background-color: #E9EBF5;
+}
+
+
+/*MENU*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F4F6FD;
+    width: 15vw;
+    height: 100vh;
+}
+.list-header{
+    color: #8AA2C9;
+    font-size: 14px;;
+}
+.menu-top, .menu-bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 50px 20px;
+    gap: 10px;
+    height: 50%;
+}
+.menu-bottom{
+    justify-content: flex-end;
+}
+a{
+    color: #2C3550;
+    text-decoration: none;
+}
+a:hover {
+    color:#FF5AEE;
+}
+.active{
+    font-weight: 500;
+    color:#FF5AEE;
+}
+
+
+/*MAIN*/
+.main{
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 50px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 0px 40px;;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    color: #2C3550;
+    border-bottom: 2px solid #FF5AEE;
+}
+
+.left-options{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.opt {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #F4F6FD;
+    padding: 15px;
+}
+.search-container{
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F4F6FD;
+   
+}
+
+.search-container input{
+    width: 230px;
+    border: none;
+    background-color: #F4F6FD;
+    outline: none;   
+}
+
+.header-title{
+    color: #2C3550;
+    padding: 40px;
+    font-size: 42px;
+    text-shadow: #2c35504b 1px 0 10px;
+}
+.card-container{
+    padding-left: 40px; 
+    position: relative;
+}
+.card{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 40px 10px 40px;
+    border: 2px solid #E8EBF5;
+    border-radius: 50px;
+    background-color: #F4F6FD;
+}
+.more{
+    width: 15px;
+}
+.card-notification{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff48ee;
+    box-shadow: 2px 5px 15px rgba(255, 72, 237, 0.733);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -30px;
+    left: 430px;
+}
+.card-notification img{
+    width: 25px;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-profiles{
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.card-profile{
+    width: 40px;
+    border-radius: 50%;
+}
+.profile1{
+    position: absolute;
+    
+}
+.profile2{
+    position: absolute;
+    left: 30px;
+}
+.profile3{
+    position: absolute;
+    left: 60px;
+}
+ 
+.card-info h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #2C3550;
+}
+.card-info span{
+    color: #8894b5;
+    font-weight: 500;
+}

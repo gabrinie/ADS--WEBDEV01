@@ -1,0 +1,52 @@
+@font-face {
+    font-family: poppins;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+}
+
+
+table{
+    width: 700px;
+    text-align: left;
+    border: 1px solid #eee;
+    border-collapse: collapse;
+}
+td{
+    padding: 15px;
+    vertical-align: middle;
+}
+.table--header--cell{
+    background-color: white;
+    padding: 15px; 
+}
+
+.table--row--dark{
+    background-color: rgb(207, 189, 223);
+}
+.table--row--light{
+    background-color: rgb(244, 238, 246);
+}
+
+.btn-cell{
+    text-align: right;
+    
+}
+
+button{
+    background-color: rgb(86, 79, 191);
+    color: white;
+    border-radius: 16px;
+    height: 30px;
+    width: 100px;
+    box-shadow: 2px 3px 10px rgb(18, 0, 51);
+    border: 0;
+    
+}
